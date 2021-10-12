@@ -1,0 +1,78 @@
+.wrapper {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-around;
+
+    .contentBlock {
+        width: 35%;
+    }
+
+    h3 {
+        opacity: .7;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    p {
+        line-height: 1.7;
+        font-size: 17px;
+        
+    }
+
+    div {
+        width: 90%;
+    }
+}
+
+
+.projects {
+    padding-top: 60px;
+    margin-top: 60px;
+    display: flex;
+    
+
+    .descrtiption {
+        margin-left: 120px;
+        margin-right: 120px;
+        width: 25%;
+        p {
+           font-size: 18px; 
+           line-height: 1.7;
+        }
+    }
+}
+
+.projectImage {
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 0 15px;
+    
+    img {
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.205);
+    }
+}
+
+
+.footer {
+    background-color: #1c1f27f5;
+    height: 150px;
+    color: #fff;
+
+    a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    
+}
+.footerContent {
+    margin-top: 80px;        
+    margin-left: 80px;
+    padding-top: 1px;
+}
